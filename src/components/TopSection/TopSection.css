@@ -1,4 +1,5 @@
 .top-section {
-    background: url(./img/bg-techno.png) center no-repeat;
-    background-color: #2b2b2b;
+    background: center no-repeat;
+    /* background-size: ; */
+    background-image: url(./img/bg-techno.png), linear-gradient(90deg, #2b2b2b, #3a3a3a);
 }
