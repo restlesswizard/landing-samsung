@@ -1,0 +1,35 @@
+header {
+    /* background-color: gainsboro; */
+
+    padding: 34px 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header-navigation {
+    display: flex;
+    align-items: center;
+
+    gap: 65px;
+}
+
+.contacts {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+ul.menu__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+li.menu__item {
+    list-style-type: none;
+}
