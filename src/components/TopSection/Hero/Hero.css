@@ -1,0 +1,28 @@
+h1 {
+    font-weight: bold;
+    font-size: 52px;
+    color: white;
+}
+
+h1 .brandname {
+    color: #6792FF;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-content__image {
+    background-image: url('./img/samsung.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 460px;
+    height: 460px;
+}
