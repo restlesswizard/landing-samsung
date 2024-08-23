@@ -1,15 +1,20 @@
-button.call-me {
+button {
     --border-width: 3px;
     --border-radius: 30px;
-    --color-1: #6792ff;
-    --color-2: #41c3cb;
-
-    --gradient: linear-gradient(to bottom right, var(--color-1), var(--color-2));
-
     padding-left: 40px;
     padding-right: 40px;
-
     font-weight: bold;
+
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+
+.call-me {
+    --color-1: #6792ff;
+    --color-2: #41c3cb;
+    --gradient: linear-gradient(to bottom right, var(--color-1), var(--color-2));
+
     color: var(--gradient);
     position: relative;
     background: var(--gradient), var(--gradient);
@@ -17,14 +22,11 @@ button.call-me {
     background-repeat: no-repeat;
     background-size: calc(100% - var(--border-radius) - var(--border-radius))
       var(--border-width);
-    border-radius: var(--border-radius);
-    border: none;
 
-    
 }
 
-button:before,
-button:after {
+.call-me:before,
+.call-me:after {
   content: "";
   display: block;
   position: absolute;
@@ -33,7 +35,7 @@ button:after {
   bottom: 0;
 }
 
-button:before {
+.call-me:before {
     left: 0;
     border: var(--border-width) solid var(--color-1);
     border-top-left-radius: var(--border-radius);
@@ -41,10 +43,21 @@ button:before {
     border-right-color: transparent;
   }
   
-button:after {
+.call-me:after {
     right: 0;
     border: var(--border-width) solid var(--color-2);
     border-top-right-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     border-left-color: transparent;
+}
+
+.call-me .text {
+    background-color: var(--gradient);
+    background-image: var(--gradient);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }

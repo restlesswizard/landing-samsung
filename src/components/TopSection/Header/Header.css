@@ -48,7 +48,7 @@ li.menu__item a {
     color: #fff;
 }
 
-button.call-me {
+/* button.call-me {
     --border-width: 3px;
     --border-radius: 30px;
     --color-1: #6792ff;
@@ -97,15 +97,6 @@ button:after {
     border-top-right-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     border-left-color: transparent;
-}
+} */
 
-.text {
-    background-color: var(--gradient);
-    background-image: var(--gradient);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
+
