@@ -12,9 +12,15 @@ export const Header = () => {
             </div>
             <nav className="menu">
               <ul className="menu__list">
-                <li className="menu__item">Наши услуги</li>
-                <li className="menu__item">Бренды</li>
-                <li className="menu__item">Отзывы</li>
+                <li className="menu__item">
+                  <a href="#">Наши услуги</a>
+                </li>
+                <li className="menu__item">
+                  <a href="#">Бренды</a>
+                </li>
+                <li className="menu__item">
+                  <a href="#">Отзывы</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -23,7 +29,11 @@ export const Header = () => {
             <a href="tel:83433112111" className="contacts-phone">
               +8 (343) 311-21-11
             </a>
-            <button className="button call-me">Перезвонить мне</button>
+            <button className="call-me">
+              <span className="text">
+              Перезвонить мне
+              </span>
+            </button>
           </div>
         </div>
       </div>
