@@ -1,5 +1,6 @@
 import logo from "./img/axmobi-logo.png";
 import "./Header.css";
+import { Button } from "../../Button/Button";
 
 export const Header = () => {
   return (
@@ -29,11 +30,17 @@ export const Header = () => {
             <a href="tel:83433112111" className="contacts-phone">
               +8 (343) 311-21-11
             </a>
-            <button className="call-me">
+            {/* <button className="call-me">
               <span className="text">
               Перезвонить мне
               </span>
-            </button>
+            </button> */}
+            <Button 
+              btnClassName="call-me"
+              buttonText="Перезвонить мне"
+              btnTextClassName="text"
+            />
+
           </div>
         </div>
       </div>
