@@ -1,6 +1,4 @@
 header {
-    /* background-color: gainsboro; */
-
     padding: 34px 0;
 }
 
@@ -37,66 +35,9 @@ ul.menu__list {
     gap: 2rem;
 }
 
-/* li.menu__item {
-    list-style-type: none;
-} */
-
 li.menu__item a {
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
 }
-
-/* button.call-me {
-    --border-width: 3px;
-    --border-radius: 30px;
-    --color-1: #6792ff;
-    --color-2: #41c3cb;
-
-    --gradient: linear-gradient(to bottom right, var(--color-1), var(--color-2));
-
-    padding-left: 40px;
-    padding-right: 40px;
-
-    font-weight: bold;
-    color: var(--gradient);
-    position: relative;
-    background: var(--gradient), var(--gradient);
-    background-position: var(--border-radius) 0, var(--border-radius) 100%;
-    background-repeat: no-repeat;
-    background-size: calc(100% - var(--border-radius) - var(--border-radius))
-      var(--border-width);
-    border-radius: var(--border-radius);
-    border: none;
-
-    
-}
-
-button:before,
-button:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: var(--border-radius);
-  top: 0;
-  bottom: 0;
-}
-
-button:before {
-    left: 0;
-    border: var(--border-width) solid var(--color-1);
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
-    border-right-color: transparent;
-  }
-  
-button:after {
-    right: 0;
-    border: var(--border-width) solid var(--color-2);
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
-    border-left-color: transparent;
-} */
-
-

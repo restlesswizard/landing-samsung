@@ -1,6 +1,9 @@
 button {
-    --border-width: 3px;
-    --border-radius: 30px;
+  --gradient: linear-gradient(to bottom right, var(--color-1), var(--color-2));
+  --border-width: 3px;
+  --border-radius: 30px;
+  --color-1: #6792ff;
+  --color-2: #41c3cb;
     padding-left: 40px;
     padding-right: 40px;
     font-weight: bold;
@@ -11,9 +14,8 @@ button {
 
 
 .call-me {
-    --color-1: #6792ff;
-    --color-2: #41c3cb;
-    --gradient: linear-gradient(to bottom right, var(--color-1), var(--color-2));
+
+    
 
     color: var(--gradient);
     position: relative;
@@ -60,4 +62,12 @@ button {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+}
+
+
+
+.order-repair {
+  background: var(--gradient);
+  padding-left: 70px;
+  padding-right: 70px;
 }

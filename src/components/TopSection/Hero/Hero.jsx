@@ -1,5 +1,5 @@
 import './Hero.css';
-import phone from "./img/samsung.png";
+import { Button } from '../../Button/Button';
 
 export const Hero = () => {
   return (
@@ -18,7 +18,11 @@ export const Hero = () => {
               гарантией до 3 месяцев
             </p>
 
-            <button>Заказать ремонт</button>
+            <Button 
+              btnClassName="order-repair"
+              buttonText="Заказать ремонт"
+              btnTextClassName="text"
+            />
           </div>
           <div className="hero-content__col">
             <div className="hero-content__image">
